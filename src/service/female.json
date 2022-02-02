@@ -1,0 +1,144 @@
+{
+    "females": [
+        {
+            "id": 1,
+            "spouse_id": 1,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 2,
+            "spouse_id": 2,
+            "father_id": 1,
+            "mother_id": 2,
+            "name": "Sulekha Khatun"
+        },
+        {
+            "id": 3,
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Rulekha Khatun"
+        },
+        {
+            "id": 4,
+            "spouse_id": 3,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Sulekha Khatun"
+        },
+        {
+            "id": 5,
+            "spouse_id": 4,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 6,
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 7,
+            "name": "Julekha Khatun",
+            "spouse_id": 5,
+            "father_id": 1,
+            "mother_id": 1
+        },
+        {
+            "id": 8,
+            "name": "Julekha Khatun",
+            "spouse_id": 6,
+            "father_id": 1,
+            "mother_id": 1
+        },
+        {
+            "id": 9,
+            "name": "Julekha Khatun",
+            "spouse_id": 7,
+            "father_id": 1,
+            "mother_id": 1
+        },
+        {
+            "id": 10,
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 11,
+            "spouse_id": 8,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 12,
+            "spouse_id": 9,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 13,
+            "spouse_id": 10,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 14,
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 15,
+            "spouse_id": 11,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 16,
+            "spouse_id": 12,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 17,
+            "spouse_id": 13,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 18,
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 19,
+            "spouse_id": 14,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        },
+        {
+            "id": 20,
+            "spouse_id": 15,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
+        }
+    ]
+}

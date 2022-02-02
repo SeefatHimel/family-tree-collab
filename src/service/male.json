@@ -1,0 +1,144 @@
+{
+    "males": [
+        {
+            "id": 1,
+            "spouse_id": 1,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Abdul Majed"
+        },
+        {
+            "id": 2,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 3,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Sajid"
+        },
+        {
+            "id": 4,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul kajid"
+        },
+        {
+            "id": 5,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 6,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 7,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 8,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 9,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 10,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 11,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 12,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 13,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 14,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 15,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 16,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 17,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 18,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 19,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        },
+        {
+            "id": 20,
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
+        }
+    ]
+}
