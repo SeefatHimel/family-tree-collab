@@ -2,143 +2,143 @@
     "males": [
         {
             "id": 1,
-            "name": "Abdul Majed",
-            "dirth": "1830",
-            "death": "60",
-            "Children": "13"
+            "spouse_id": 1,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Abdul Majed"
         },
         {
             "id": 2,
-            "name": "Abdul Majid",
-            "birth": "1855",
-            "death":"1950",
-            "children": "8"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 3,
-            "name": "Abdul Sajid",
-            "birth": "1875",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Sajid"
         },
         {
             "id": 4,
-            "name": "Abdul kajid",
-            "birth": "1896",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul kajid"
         },
         {
             "id": 5,
-            "name": "Abdul Majid",
-            "birth": "1916",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 6,
-            "name": "Abdul Majid",
-            "birth": "1950",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 7,
-            "name": "Abdul Majid",
-            "birth": "1971",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 8,
-            "name": "Abdul Majid",
-            "birth": "1997",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 9,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 10,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 11,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 12,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 13,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 14,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 15,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 16,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 17,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 18,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 19,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         },
         {
             "id": 20,
-            "name": "Abdul Majid",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 1,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Abdul Majid"
         }
     ]
 }

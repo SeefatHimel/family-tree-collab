@@ -2,143 +2,143 @@
     "females": [
         {
             "id": 1,
-            "name": "Julekha Khatun",
-            "dirth": "1830",
-            "death": "60",
-            "Children": "13"
+            "spouse_id": 1,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Julekha Khatun"
         },
         {
             "id": 2,
-            "name": "Sulekha Khatun",
-            "birth": "1855",
-            "death":"1950",
-            "children": "8"
+            "spouse_id": 2,
+            "father_id": 1,
+            "mother_id": 2,
+            "name": "Sulekha Khatun"
         },
         {
             "id": 3,
-            "name": "Rulekha Khatun",
-            "birth": "1875",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Rulekha Khatun"
         },
         {
             "id": 4,
-            "name": "Sulekha Khatun",
-            "birth": "1896",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 3,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Sulekha Khatun"
         },
         {
             "id": 5,
-            "name": "Julekha Khatun",
-            "birth": "1916",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 4,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 6,
-            "name": "Julekha Khatun",
-            "birth": "1950",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 7,
             "name": "Julekha Khatun",
-            "birth": "1971",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 5,
+            "father_id": 1,
+            "mother_id": 1
         },
         {
             "id": 8,
             "name": "Julekha Khatun",
-            "birth": "1997",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 6,
+            "father_id": 1,
+            "mother_id": 1
         },
         {
             "id": 9,
             "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 7,
+            "father_id": 1,
+            "mother_id": 1
         },
         {
             "id": 10,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 11,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 8,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 12,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 9,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 13,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 10,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 14,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 15,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 11,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 16,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 12,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 17,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 13,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 18,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 0,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 19,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 14,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         },
         {
             "id": 20,
-            "name": "Julekha Khatun",
-            "birth": "1980",
-            "death":"1950",
-            "children": "3"
+            "spouse_id": 15,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Julekha Khatun"
         }
     ]
 }
