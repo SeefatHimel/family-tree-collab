@@ -23,7 +23,7 @@ const Gen = () => {
 
     return (
         <>
-            {/* <Gen1 adam_id="1" males={males} females={females} /> */}
+            <Gen1 adam_id="1" males={males} females={females} />
         </>
     );
 };

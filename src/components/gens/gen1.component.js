@@ -1,43 +1,42 @@
 import { useEffect, useState } from "react";
+import Gen2 from "./gen2.component";
 
 const Gen1 = (props) => {
     const { adam_id, males, females } = props;
 
-    const [family_id, setFamilyID] = useState({"spouse_id": 1,
-    "father_id": 0,
-    "mother_id": 0});
+    useEffect(() => {
+        console.log("Gen1");
+    }, []);
 
-    const setAll = (spouse_id, father_id) => {
-        setFamilyID({"spouse_id": 1,
-        "father_id": 0,
-        "mother_id": 0});
-    };
-    useEffect()
-
-    // const father;
 
     return (
         <>
             <h1>Generation 1</h1>
-            {males.map((male) => {
+            {males.map((male, index) => {
                 if (male.id == adam_id) {
-                    setAll(male.spouse_id, male.id);
                     return (
-                        <>
-                            <h1>{male.name}</h1>
-                        </>
+                        <div key={index}>
+                            <h1>
+                                {male.name}
+                                {females.map((female, index) => {
+                                    if (female.id == male.spouse_id) {
+                                        return (
+                                            <span key={index}>
+                                                {" "}
+                                                ==== {female.name}
+                                            </span>
+                                        );
+                                    }
+                                })}
+                            </h1>
+                            <hr />
+                
+                            <Gen2 father_id={male.id} mother_id={male.spouse_id}  males={males} females={females} />
+                        </div>
                     );
                 }
             })}
-            {females.map((female) => {
-                if (female.id == female) {
-                    return (
-                        <>
-                            <h1>{female.name}</h1>
-                        </>
-                    );
-                }
-            })}
+
         </>
     );
 };
