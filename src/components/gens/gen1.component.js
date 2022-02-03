@@ -11,11 +11,11 @@ const Gen1 = (props) => {
 
     return (
         <>
-            <h1>Generation 1</h1>
             {males.map((male, index) => {
                 if (male.id == adam_id) {
                     return (
                         <div key={index}>
+                            <h1>Generation 1</h1>
                             <h1>
                                 {male.name}
                                 {females.map((female, index) => {
