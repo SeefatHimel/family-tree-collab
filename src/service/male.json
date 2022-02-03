@@ -31,112 +31,112 @@
         {
             "id": 5,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 2,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 6,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 2,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 7,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 3,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 8,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 3,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 9,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 4,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 10,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 4,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 11,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 5,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 12,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 5,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 13,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 6,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 14,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 6,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 15,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 7,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 16,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 7,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 17,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 9,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 18,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 9,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 19,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 8,
             "mother_id": 1,
             "name": "Abdul Majid"
         },
         {
             "id": 20,
             "spouse_id": 1,
-            "father_id": 1,
+            "father_id": 8,
             "mother_id": 1,
             "name": "Abdul Majid"
         }
