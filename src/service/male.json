@@ -5,140 +5,140 @@
             "spouse_id": 1,
             "father_id": 0,
             "mother_id": 0,
-            "name": "Abdul Majed"
+            "name": "King George VI"
         },
         {
             "id": 2,
-            "spouse_id": 1,
-            "father_id": 1,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 2,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Prince Phillip"
         },
         {
             "id": 3,
-            "spouse_id": 1,
-            "father_id": 1,
-            "mother_id": 1,
-            "name": "Abdul Sajid"
+            "spouse_id": 3,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Antony Armstrong Jones"
         },
         {
             "id": 4,
-            "spouse_id": 1,
-            "father_id": 1,
-            "mother_id": 1,
-            "name": "Abdul kajid"
+            "spouse_id": 4,
+            "father_id": 2,
+            "mother_id": 2,
+            "name": "Prince Edward"
         },
         {
             "id": 5,
-            "spouse_id": 1,
+            "spouse_id": 5,
             "father_id": 2,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "mother_id": 2,
+            "name": "Prince Andrew"
         },
         {
             "id": 6,
-            "spouse_id": 1,
-            "father_id": 2,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 6,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Captain Mark Phillips"
         },
         {
             "id": 7,
-            "spouse_id": 1,
-            "father_id": 3,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 7,
+            "father_id": 2,
+            "mother_id": 2,
+            "name": "Prince Charles"
         },
         {
             "id": 8,
-            "spouse_id": 1,
+            "spouse_id": 8,
             "father_id": 3,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "mother_id": 3,
+            "name": "David Armstrong Jones"
         },
         {
             "id": 9,
-            "spouse_id": 1,
-            "father_id": 4,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 9,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Daniel Chatto"
         },
         {
             "id": 10,
-            "spouse_id": 1,
-            "father_id": 4,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 10,
+            "father_id": 7,
+            "mother_id": 7,
+            "name": "Prince Harry"
         },
         {
             "id": 11,
-            "spouse_id": 1,
-            "father_id": 5,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 11,
+            "father_id": 7,
+            "mother_id": 7,
+            "name": "Prince William"
         },
         {
             "id": 12,
-            "spouse_id": 1,
-            "father_id": 5,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 0,
+            "father_id": 4,
+            "mother_id": 4,
+            "name": "James Viscount Severn"
         },
         {
             "id": 13,
-            "spouse_id": 1,
-            "father_id": 6,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 14,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Jack Booksbank"
         },
         {
             "id": 14,
-            "spouse_id": 1,
-            "father_id": 6,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 15,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Michael Tindall"
         },
         {
             "id": 15,
-            "spouse_id": 1,
-            "father_id": 7,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 16,
+            "father_id": 6,
+            "mother_id": 6,
+            "name": "Peter Phillips"
         },
         {
             "id": 16,
-            "spouse_id": 1,
-            "father_id": 7,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 0,
+            "father_id": 8,
+            "mother_id": 8,
+            "name": "Hon. Charles Armstrong-Jones"
         },
         {
             "id": 17,
-            "spouse_id": 1,
+            "spouse_id": 0,
             "father_id": 9,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "mother_id": 9,
+            "name": "Samuel Chatto"
         },
         {
             "id": 18,
-            "spouse_id": 1,
+            "spouse_id": 0,
             "father_id": 9,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "mother_id": 9,
+            "name": "Arthur Chatto"
         },
         {
             "id": 19,
-            "spouse_id": 1,
-            "father_id": 8,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 0,
+            "father_id": 11,
+            "mother_id": 11,
+            "name": "Prince George"
         },
         {
             "id": 20,
-            "spouse_id": 1,
-            "father_id": 8,
-            "mother_id": 1,
-            "name": "Abdul Majid"
+            "spouse_id": 0,
+            "father_id": 11,
+            "mother_id": 11,
+            "name": "Prince Louis"
         }
     ]
 }

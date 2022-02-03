@@ -22,7 +22,6 @@ const Gen1 = (props) => {
                                     if (female.id == male.spouse_id) {
                                         return (
                                             <span key={index}>
-                                                {" "}
                                                 ==== {female.name}
                                             </span>
                                         );
@@ -30,8 +29,8 @@ const Gen1 = (props) => {
                                 })}
                             </h1>
                             <hr />
-                
-                            <Gen2 father_id={male.id} mother_id={male.spouse_id}  males={males} females={females} />
+
+                            <Gen2 father_id={male.id} mother_id={male.spouse_id} males={males} females={females} />
                         </div>
                     );
                 }

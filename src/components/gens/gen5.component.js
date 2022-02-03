@@ -1,6 +1,6 @@
-import Gen5 from "./gen5.component";
+// import Gen4 from "./gen4.component";
 
-const Gen4 = (props) => {
+const Gen5 = (props) => {
     const { father_id, mother_id, males, females } = props;
     return (
         <div class="row">
@@ -14,7 +14,7 @@ const Gen4 = (props) => {
                             ) {
                                 return (
                                     <div key={index}>
-                                        <h1>Generation 4</h1>
+                                        <h1>Generation 5</h1>
                                         <h1>
                                             {male.id} --- {male.name} ==={" "}
                                             {females.map((female, index) => {
@@ -29,8 +29,6 @@ const Gen4 = (props) => {
                                             })}
                                         </h1>
                                         <hr />
-
-                                        <Gen5 father_id={male.id} mother_id={male.spouse_id} males={males} females={females} />
                                     </div>
                                 );
                             }
@@ -48,7 +46,7 @@ const Gen4 = (props) => {
                             ) {
                                 return (
                                     <div key={index}>
-                                        <h1>Generation 4</h1>
+                                        <h1>Generation 5</h1>
                                         <h1>
                                             {female.id} --- {female.name} ==={" "}
                                             {males.map((male, index) => {
@@ -63,12 +61,11 @@ const Gen4 = (props) => {
                                             })}
                                         </h1>
                                         <hr />
-
-                                        <Gen5 father_id={female.spouse_id} mother_id={female.id} males={males} females={females} />
                                     </div>
                                 );
                             }
                         })}
+                        <hr />
                     </div>
                 </div>
             </div>
@@ -76,4 +73,4 @@ const Gen4 = (props) => {
     );
 };
 
-export default Gen4;
+export default Gen5;
