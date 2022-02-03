@@ -1,8 +1,10 @@
+import Gen from "./components/gens/gen.component";
 
 function App() {
   return (
     <>
-      <h1>App Abid</h1>
+      <h1>App =====</h1>
+      <Gen />
     </>
   );
 }
