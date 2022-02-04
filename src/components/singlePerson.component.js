@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import getChildrenNo from "../service/getChildrenNo.service";
 
 const SinglePerson = (props) => {
     const {
@@ -12,12 +13,11 @@ const SinglePerson = (props) => {
         mode,
         imgSrc1,
         imgSrc2,
-        totalSuccessor,
-        updateTotalSuccessor,
     } = props;
 
     const [data1, setData1] = useState(males);
     const [data2, setData2] = useState(females);
+    const [child, setChild] = useState();
 
     useEffect(() => {
         if (mode == 0) {
@@ -41,7 +41,21 @@ const SinglePerson = (props) => {
                         >
                             <div className="card" style={{ float: "none" }}>
                                 <div>
-                                    <p>Generation {genNo} ({totalSuccessor})</p>
+                                    <p>
+                                        Generation {genNo} -
+                                        (
+                                        {getChildrenNo(
+                                            males,
+                                            females,
+                                            mode == 1
+                                                ? person1.id
+                                                : person1.spouse_id,
+                                            mode == 1
+                                                ? person1.spouse_id
+                                                : person1.id
+                                        )}
+                                        )
+                                    </p>
                                     <div
                                         className="row"
                                         style={{
@@ -106,9 +120,6 @@ const SinglePerson = (props) => {
                                             }
                                             males={males}
                                             females={females}
-                                            updateTotalSuccessor={
-                                                updateTotalSuccessor
-                                            }
                                         />
                                     ) : null}
                                 </div>

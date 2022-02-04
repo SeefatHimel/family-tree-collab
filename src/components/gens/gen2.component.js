@@ -1,20 +1,18 @@
 import { useEffect, useState } from "react";
+import getChildrenNo from "../../service/getChildrenNo.service";
 import SingleGen from "../singleGen.component";
 import Gen3 from "./gen3.component";
 
 const Gen2 = (props) => {
-    const { father_id, mother_id, males, females, updateTotalSuccessor } =
+    const { father_id, mother_id, males, females } =
         props;
         const [totalSuccessor , setTotalSuccessor] = useState(0);
 
-        const updateTotalSuccessor2 = (num) =>{
-            console.log("gen2 " + father_id + " " + mother_id + " " + num);
-            setTotalSuccessor( num);
-        }
     
     useEffect(() => {
-        
-    }, [totalSuccessor]);
+        const num = getChildrenNo(males, females, father_id, mother_id);
+        setTotalSuccessor(num);
+    }, []);
     return (
         <>
             <SingleGen
@@ -25,8 +23,6 @@ const Gen2 = (props) => {
                 mother_id={mother_id}
                 GenComponent={Gen3}
                 totalSuccessor={totalSuccessor}
-                updateTotalSuccessor={updateTotalSuccessor}
-                updateNextTotalSuccessor={updateTotalSuccessor2}
             />
         </>
     );

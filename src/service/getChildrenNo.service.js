@@ -7,7 +7,6 @@ function getChildrenNo(males, females, father_id, mother_id) {
             (female) =>
                 female.father_id == father_id && female.mother_id == mother_id
         ).length;
-    console.log(len);
     return len;
 }
 

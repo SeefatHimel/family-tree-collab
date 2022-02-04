@@ -10,8 +10,6 @@ const SingleGen = (props) => {
         mother_id,
         GenComponent,
         totalSuccessor,
-        updateTotalSuccessor,
-        updateNextTotalSuccessor,
     } = props;
     const [colLen, setColLen] = useState(6);
     const [len, setLen] = useState(0);
@@ -33,8 +31,6 @@ const SingleGen = (props) => {
                 female.father_id == father_id &&
                 female.mother_id == mother_id
                 ).length;
-                updateTotalSuccessor(len);
-                console.log(len , father_id , mother_id);
          setLen(len);
         calculateColumnLen(len);
     },[]);
@@ -58,7 +54,6 @@ const SingleGen = (props) => {
                     totalSuccessor={totalSuccessor}
                     GenComponent={GenComponent}
                     mode={1}
-                    updateTotalSuccessor={updateNextTotalSuccessor}
                 />
 
                 <SinglePerson
@@ -77,7 +72,6 @@ const SingleGen = (props) => {
                     totalSuccessor = {totalSuccessor}
                     GenComponent={GenComponent}
                     mode={0}
-                    updateTotalSuccessor={updateNextTotalSuccessor}
                 />
             </div>
         </>

@@ -1,17 +1,20 @@
 import { useEffect, useState } from "react";
+import getChildrenNo from "../../service/getChildrenNo.service";
 import Gen2 from "./gen2.component";
 
 const Gen1 = (props) => {
     const { adam_id, males, females } = props;
-    const [totalSuccessor , setTotalSuccessor] = useState(0);
+    const [totalSuccessor, setTotalSuccessor] = useState(0);
 
-    const updateTotalSuccessor = (num) =>{
-        setTotalSuccessor(num);
-    }
-
-    useEffect(() => {
-        console.log("Gen1");
-    }, [totalSuccessor]);
+    let spouse_id;
+    const mp = males.map((male) => {
+        if (male.id == adam_id) {
+            spouse_id = male.spouse_id;
+            return male;
+        }
+    });
+    const num = getChildrenNo(males, females, adam_id, spouse_id);
+    useEffect(() => {}, [totalSuccessor]);
 
     return (
         <>
@@ -19,7 +22,7 @@ const Gen1 = (props) => {
                 if (male.id == adam_id) {
                     return (
                         <div key={index} className="col mx-1">
-                            <h1>Generation 1 ({totalSuccessor})</h1>
+                            <h1>Generation 1 ({num}) </h1>
                             <div
                                 className="row"
                                 style={{ margin: " auto 42%" }}
@@ -42,7 +45,10 @@ const Gen1 = (props) => {
                                 {females.map((female, index) => {
                                     if (female.id == male.spouse_id) {
                                         return (
-                                            <div className="col mx-1" key={index}>
+                                            <div
+                                                className="col mx-1"
+                                                key={index}
+                                            >
                                                 <img
                                                     className="row"
                                                     style={{
@@ -61,14 +67,12 @@ const Gen1 = (props) => {
                                 })}
                             </div>
                             <div className="col mx-1">
-
-                            <Gen2
-                                father_id={male.id}
-                                mother_id={male.spouse_id}
-                                males={males}
-                                females={females}
-                                updateTotalSuccessor={updateTotalSuccessor}
-                            />
+                                <Gen2
+                                    father_id={male.id}
+                                    mother_id={male.spouse_id}
+                                    males={males}
+                                    females={females}
+                                />
                             </div>
                         </div>
                     );
