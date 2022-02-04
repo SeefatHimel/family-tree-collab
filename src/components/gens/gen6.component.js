@@ -1,12 +1,13 @@
-import SingleGen from "../singleGen.component";
-import Gen6 from "./gen6.component";
+// import Gen6 from "./gen6gen6.component";
 
-const Gen5 = (props) => {
+import SingleGen from "../singleGen.component";
+
+const Gen6 = (props) => {
     const { father_id, mother_id, males, females } = props;
     return (
         <>
             <SingleGen
-                genNo={5}
+                genNo={6}
                 males={males}
                 females={females}
                 father_id={father_id}
@@ -17,4 +18,4 @@ const Gen5 = (props) => {
     );
 };
 
-export default Gen5;
+export default Gen6;
