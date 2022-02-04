@@ -1,30 +1,43 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SinglePerson from "./singlePerson.component";
 
 const SingleGen = (props) => {
-    const { genNo, males, females, father_id, mother_id, GenComponent } = props;
+    const {
+        genNo,
+        males,
+        females,
+        father_id,
+        mother_id,
+        GenComponent,
+        totalSuccessor,
+        updateTotalSuccessor,
+        updateNextTotalSuccessor,
+    } = props;
     const [colLen, setColLen] = useState(6);
-    const [colTotal, setColtotal] = useState(0);
+    const [len, setLen] = useState(0);
     const colClassName = "col-" + colLen;
 
     const calculateColumnLen = (size) => {
         if (size === 0) return;
-        const colLen = 12 / size;
+        const colLen = Math.floor(12 / size);
         setColLen(colLen);
     };
-    useState(() => {
+    useEffect(() => {
         const len =
-            males.filter(
-                (male) =>
-                    male.father_id == father_id && male.mother_id == mother_id
+        males.filter(
+            (male) =>
+            male.father_id == father_id && male.mother_id == mother_id
             ).length +
             females.filter(
                 (female) =>
-                    female.father_id == father_id &&
-                    female.mother_id == mother_id
-            ).length;
+                female.father_id == father_id &&
+                female.mother_id == mother_id
+                ).length;
+                updateTotalSuccessor(len);
+                console.log(len , father_id , mother_id);
+         setLen(len);
         calculateColumnLen(len);
-    }, []);
+    },[]);
 
     return (
         <>
@@ -42,9 +55,12 @@ const SingleGen = (props) => {
                     }
                     colClassName={colClassName}
                     genNo={genNo}
+                    totalSuccessor={totalSuccessor}
                     GenComponent={GenComponent}
                     mode={1}
+                    updateTotalSuccessor={updateNextTotalSuccessor}
                 />
+
                 <SinglePerson
                     males={males}
                     females={females}
@@ -58,8 +74,10 @@ const SingleGen = (props) => {
                     }
                     colClassName={colClassName}
                     genNo={genNo}
+                    totalSuccessor = {totalSuccessor}
                     GenComponent={GenComponent}
                     mode={0}
+                    updateTotalSuccessor={updateNextTotalSuccessor}
                 />
             </div>
         </>

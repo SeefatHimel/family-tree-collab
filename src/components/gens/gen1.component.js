@@ -3,23 +3,28 @@ import Gen2 from "./gen2.component";
 
 const Gen1 = (props) => {
     const { adam_id, males, females } = props;
+    const [totalSuccessor , setTotalSuccessor] = useState(0);
+
+    const updateTotalSuccessor = (num) =>{
+        setTotalSuccessor(num);
+    }
 
     useEffect(() => {
         console.log("Gen1");
-    }, []);
+    }, [totalSuccessor]);
 
     return (
         <>
             {males.map((male, index) => {
                 if (male.id == adam_id) {
                     return (
-                        <div key={index} className="col">
-                            <h1>Generation 1</h1>
+                        <div key={index} className="col mx-1">
+                            <h1>Generation 1 ({totalSuccessor})</h1>
                             <div
                                 className="row"
                                 style={{ margin: " auto 42%" }}
                             >
-                                <div className="col">
+                                <div className="col mx-1">
                                     <img
                                         className=""
                                         style={{
@@ -37,7 +42,7 @@ const Gen1 = (props) => {
                                 {females.map((female, index) => {
                                     if (female.id == male.spouse_id) {
                                         return (
-                                            <div className="col" key={index}>
+                                            <div className="col mx-1" key={index}>
                                                 <img
                                                     className="row"
                                                     style={{
@@ -55,13 +60,14 @@ const Gen1 = (props) => {
                                     }
                                 })}
                             </div>
-                            <div className="col">
+                            <div className="col mx-1">
 
                             <Gen2
                                 father_id={male.id}
                                 mother_id={male.spouse_id}
                                 males={males}
                                 females={females}
+                                updateTotalSuccessor={updateTotalSuccessor}
                             />
                             </div>
                         </div>

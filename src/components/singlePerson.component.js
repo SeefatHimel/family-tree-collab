@@ -12,6 +12,8 @@ const SinglePerson = (props) => {
         mode,
         imgSrc1,
         imgSrc2,
+        totalSuccessor,
+        updateTotalSuccessor,
     } = props;
 
     const [data1, setData1] = useState(males);
@@ -32,10 +34,14 @@ const SinglePerson = (props) => {
                     person1.mother_id == mother_id
                 ) {
                     return (
-                        <div className={colClassName} key={index}>
+                        <div
+                            className="col mx-1"
+                            key={index}
+                            style={{ margin: "0px" }}
+                        >
                             <div className="card" style={{ float: "none" }}>
                                 <div>
-                                    <p>Generation {genNo}</p>
+                                    <p>Generation {genNo} ({totalSuccessor})</p>
                                     <div
                                         className="row"
                                         style={{
@@ -43,7 +49,7 @@ const SinglePerson = (props) => {
                                             textAlign: "center",
                                         }}
                                     >
-                                        <div className="col">
+                                        <div className="col mx-1">
                                             <img
                                                 className=""
                                                 style={{
@@ -64,7 +70,7 @@ const SinglePerson = (props) => {
                                             ) {
                                                 return (
                                                     <div
-                                                        className="col"
+                                                        className="col mx-1"
                                                         key={index}
                                                     >
                                                         <img
@@ -100,6 +106,9 @@ const SinglePerson = (props) => {
                                             }
                                             males={males}
                                             females={females}
+                                            updateTotalSuccessor={
+                                                updateTotalSuccessor
+                                            }
                                         />
                                     ) : null}
                                 </div>
