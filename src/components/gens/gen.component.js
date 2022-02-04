@@ -18,7 +18,7 @@ const Gen = () => {
 
     useEffect(() => {
         console.log("hello");
-        dataImport()
+        dataImport();
     }, []);
 
     return (
