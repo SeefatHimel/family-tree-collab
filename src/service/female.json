@@ -5,154 +5,189 @@
             "spouse_id": 1,
             "father_id": 0,
             "mother_id": 0,
-            "name": "Queen Elizaveth"
+            "name": "Nur Jahan"
         },
         {
             "id": 2,
             "spouse_id": 2,
-            "father_id": 1,
-            "mother_id": 1,
-            "name": "Queen Elizaveth II"
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Selina Akter"
         },
         {
             "id": 3,
-            "spouse_id": 3,
-            "father_id": 1,
-            "mother_id": 1,
-            "name": "Princess Margaret"
+            "spouse_id": 0,
+            "father_id": 2,
+            "mother_id": 2,
+            "name": "Nowrin Annie"
         },
         {
             "id": 4,
             "spouse_id": 4,
             "father_id": 0,
             "mother_id": 0,
-            "name": "Sophie Rhys-Jones"
+            "name": "Boro jethi"
         },
         {
             "id": 5,
             "spouse_id": 5,
             "father_id": 0,
             "mother_id": 0,
-            "name": "Sarah Ferguson"
+            "name": "Delowara Hafiz"
         },
         {
             "id": 6,
-            "spouse_id": 6,
-            "father_id": 2,
-            "mother_id": 2,
-            "name": "Anne The Princess Royal"
+            "spouse_id": 10,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Najma Akter"
         },
         {
             "id": 7,
-            "spouse_id": 7,
-            "father_id": 0,
-            "mother_id": 0,
-            "name": "Lady Diana"
+            "spouse_id": 9,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Anawara Khatun"
         },
         {
             "id": 8,
-            "spouse_id": 8,
-            "father_id": 0,
-            "mother_id": 0,
-            "name": "Serena Stanhope"
+            "spouse_id": 18,
+            "father_id": 4,
+            "mother_id": 4,
+            "name": "Bithy"
         },
         {
             "id": 9,
-            "spouse_id": 9,
-            "father_id": 3,
-            "mother_id": 3,
-            "name": "Lady Sarah Armstrong-Jones"
+            "spouse_id": 6,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Lovely Akter"
         },
         {
             "id": 10,
-            "spouse_id": 10,
-            "father_id": 0,
-            "mother_id": 0,
-            "name": "Meghan Markle"
+            "spouse_id": 17,
+            "father_id": 6,
+            "mother_id": 9,
+            "name": "Layla Bristy"
         },
         {
             "id": 11,
-            "spouse_id": 11,
-            "father_id": 0,
-            "mother_id": 0,
-            "name": "Kate Middleton"
+            "spouse_id": 15,
+            "father_id": 5,
+            "mother_id": 5,
+            "name": "Tanha Rahman"
         },
         {
             "id": 12,
-            "spouse_id": 0,
-            "father_id": 4,
-            "mother_id": 4,
-            "name": "Lady Louise Windsor"
+            "spouse_id": 16,
+            "father_id": 5,
+            "mother_id": 5,
+            "name": "Meghla Rahman"
         },
         {
             "id": 13,
-            "spouse_id": 0,
-            "father_id": 5,
-            "mother_id": 5,
-            "name": "Princess Beatrice"
+            "spouse_id": 23,
+            "father_id": 9,
+            "mother_id": 7,
+            "name": "Sayeda Poly"
         },
         {
             "id": 14,
-            "spouse_id": 13,
-            "father_id": 5,
-            "mother_id": 5,
-            "name": "Princess Eugenie"
+            "spouse_id": 26,
+            "father_id": 9,
+            "mother_id": 7,
+            "name": "Sayeda Rozy"
         },
         {
             "id": 15,
-            "spouse_id": 14,
-            "father_id": 6,
-            "mother_id": 6,
-            "name": "Zara Phllips"
+            "spouse_id": 25,
+            "father_id": 9,
+            "mother_id": 7,
+            "name": "Sayeda Lipi"
         },
         {
             "id": 16,
-            "spouse_id": 15,
+            "spouse_id": 11,
             "father_id": 0,
             "mother_id": 0,
-            "name": "Autumn Kelly"
+            "name": "Fatema Srity"
         },
         {
             "id": 17,
-            "spouse_id": 0,
-            "father_id": 8,
-            "mother_id": 8,
-            "name": "Hon. Margarita Armstrong-jones"
+            "spouse_id": 7,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Reza Vabi"
         },
         {
             "id": 18,
             "spouse_id": 0,
-            "father_id": 14,
-            "mother_id": 15,
-            "name": "Mia Tindall"
+            "father_id": 7,
+            "mother_id": 17,
+            "name": "Reza baby"
         },
         {
             "id": 19,
             "spouse_id": 0,
-            "father_id": 14,
-            "mother_id": 15,
-            "name": "Lena Tindall"
+            "father_id": 18,
+            "mother_id": 8,
+            "name": "Bithy babyG"
         },
         {
             "id": 20,
             "spouse_id": 0,
-            "father_id": 15,
-            "mother_id": 16,
-            "name": "Savannah Phillips"
+            "father_id": 16,
+            "mother_id": 12,
+            "name": "Mapple"
         },
         {
             "id": 21,
             "spouse_id": 0,
-            "father_id": 15,
-            "mother_id": 16,
-            "name": "Isla Phillips"
+            "father_id": 17,
+            "mother_id": 10,
+            "name": "Rufaida Rimsha"
         },
         {
             "id": 22,
             "spouse_id": 0,
             "father_id": 11,
-            "mother_id": 11,
-            "name": "Princess Charlotte"
+            "mother_id": 16,
+            "name": "Nidhi Moni"
+        },
+        {
+            "id": 23,
+            "spouse_id": 13,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Monir bou"
+        },
+        {
+            "id": 24,
+            "spouse_id": 14,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Mrs toni"
+        },
+        {
+            "id": 25,
+            "spouse_id": 0,
+            "father_id": 23,
+            "mother_id": 13,
+            "name": "Tanjila Newaj"
+        },
+        {
+            "id": 26,
+            "spouse_id": 0,
+            "father_id": 25,
+            "mother_id": 15,
+            "name": "Oishorjo"
+        },
+        {
+            "id": 27,
+            "spouse_id": 0,
+            "father_id": 26,
+            "mother_id": 14,
+            "name": "Sayeda Tanvi"
         }
     ]
 }
