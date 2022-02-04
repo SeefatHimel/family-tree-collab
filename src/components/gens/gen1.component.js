@@ -13,7 +13,7 @@ const Gen1 = (props) => {
             {males.map((male, index) => {
                 if (male.id == adam_id) {
                     return (
-                        <div key={index}>
+                        <div key={index} className="col">
                             <h1>Generation 1</h1>
                             <div
                                 className="row"
@@ -73,40 +73,3 @@ const Gen1 = (props) => {
 };
 
 export default Gen1;
-/*
-
-<div
-                                            className="row"
-                                            style={{ margin: "auto" }}
-                                        >
-                                            
-                                            {females.map((female, index) => {
-                                                if (
-                                                    female.id == male.spouse_id
-                                                ) {
-                                                    return (
-                                                        <div
-                                                            className="col"
-                                                            key={index}
-                                                        >
-                                                            <img
-                                                                className="row"
-                                                                style={{
-                                                                    borderRadius:
-                                                                        "45%",
-                                                                    height: "60px",
-                                                                    width: "60px",
-                                                                    margin: "auto",
-                                                                }}
-                                                                src="https://www.kindpng.com/picc/m/24-248600_contact-profile-user-default-female-suit-comments-female.png"
-                                                                alt=""
-                                                            />
-                                                            <p>{female.name}</p>
-                                                        </div>
-                                                    );
-                                                }
-                                            })}
-                                        </div>
-
-
-                                        */

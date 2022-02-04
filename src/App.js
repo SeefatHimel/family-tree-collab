@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <h1>App =====</h1>
-      <div style={{width:"100%", minWidth:"4200px" , textAlign:'center' ,display:'flex', flexWrap:'wrap'}}>
+      <div style={{width:"100%", minWidth:"5200px" , textAlign:'center' ,display:'flex', flexWrap:'wrap'}}>
 
       <Gen />
       </div>
