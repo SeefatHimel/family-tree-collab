@@ -10,7 +10,14 @@ const SingleGen = (props) => {
         mother_id,
         GenComponent,
         totalSuccessor,
+        setTotalSuccessor,
+        PTotalSuccessorNo,
+        pChildren,
+        sss,
     } = props;
+    // console.log("in single gen", father_id, mother_id , genNo);
+    console.log("in single gen", PTotalSuccessorNo , pChildren);
+
     const [colLen, setColLen] = useState(6);
     const [len, setLen] = useState(0);
     const colClassName = "col-" + colLen;
@@ -22,18 +29,18 @@ const SingleGen = (props) => {
     };
     useEffect(() => {
         const len =
-        males.filter(
-            (male) =>
-            male.father_id == father_id && male.mother_id == mother_id
+            males.filter(
+                (male) =>
+                    male.father_id == father_id && male.mother_id == mother_id
             ).length +
             females.filter(
                 (female) =>
-                female.father_id == father_id &&
-                female.mother_id == mother_id
-                ).length;
-         setLen(len);
+                    female.father_id == father_id &&
+                    female.mother_id == mother_id
+            ).length;
+        setLen(len);
         calculateColumnLen(len);
-    },[]);
+    }, []);
 
     return (
         <>
@@ -54,6 +61,10 @@ const SingleGen = (props) => {
                     totalSuccessor={totalSuccessor}
                     GenComponent={GenComponent}
                     mode={1}
+                    setTotalSuccessor={setTotalSuccessor}
+                    sss={sss}
+                    pChildren={pChildren}
+                    PTotalSuccessorNo={PTotalSuccessorNo}
                 />
 
                 <SinglePerson
@@ -69,9 +80,13 @@ const SingleGen = (props) => {
                     }
                     colClassName={colClassName}
                     genNo={genNo}
-                    totalSuccessor = {totalSuccessor}
+                    totalSuccessor={totalSuccessor}
                     GenComponent={GenComponent}
                     mode={0}
+                    setTotalSuccessor={setTotalSuccessor}
+                    sss={sss}
+                    pChildren={pChildren}
+                    PTotalSuccessorNo={PTotalSuccessorNo}
                 />
             </div>
         </>

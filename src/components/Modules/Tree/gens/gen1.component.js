@@ -1,10 +1,24 @@
 import { useEffect, useState } from "react";
-import getChildrenNo from "../../service/getChildrenNo.service";
-import Gen2 from "./gen2.component";
+import getChildrenNo from "../service/getChildrenNo.service";
+import GetTotalSuccessors from "../service/getTotalSuccessors";
+import NextGen from "./nextGen.component";
 
 const Gen1 = (props) => {
     const { adam_id, males, females } = props;
-    const [totalSuccessor, setTotalSuccessor] = useState(0);
+    const [totalSuccessor, stt] = useState([
+        {
+            father_id: -5,
+            mother_id: -5,
+            child: -1,
+        },
+    ]);
+    let pChildren = 0;
+    let PTotalSuccessorNo = 0;
+
+    const uttt = (onj) =>{
+        console.log("///////////////////",totalSuccessor);
+        stt( [ ...totalSuccessor ,onj]);
+    }
 
     let spouse_id;
     const mp = males.map((male) => {
@@ -21,7 +35,7 @@ const Gen1 = (props) => {
             {males.map((male, index) => {
                 if (male.id == adam_id) {
                     return (
-                        <div key={index} className="col mx-1">
+                        <div id="gen 1 1" key={index} className="col">
                             <h1>Generation 1 ({num}) </h1>
                             <div
                                 className="row"
@@ -46,7 +60,7 @@ const Gen1 = (props) => {
                                     if (female.id == male.spouse_id) {
                                         return (
                                             <div
-                                                className="col mx-1"
+                                                className="col"
                                                 key={index}
                                             >
                                                 <img
@@ -66,12 +80,21 @@ const Gen1 = (props) => {
                                     }
                                 })}
                             </div>
-                            <div className="col mx-1">
-                                <Gen2
+                            <div id='gen1col' className="col"  
+                            //  style={{width: "30%"}}
+                            > 
+                            {PTotalSuccessorNo = GetTotalSuccessors(males, females, male.id, male.spouse_id)}
+                                <NextGen
                                     father_id={male.id}
                                     mother_id={male.spouse_id}
                                     males={males}
                                     females={females}
+                                    TotalMember={num}
+                                    genNo={1}
+                                    sss={uttt}
+                                    totalSuccessor= {totalSuccessor}
+                                    pChildren={num}
+                                    PTotalSuccessorNo={PTotalSuccessorNo-2}
                                 />
                             </div>
                         </div>
