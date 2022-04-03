@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SinglePerson from "./singlePerson.component";
+import '../../../css/demo.css';
 
 const SingleGen = (props) => {
     const {
@@ -44,7 +45,7 @@ const SingleGen = (props) => {
 
     return (
         <>
-            <div className="row">
+            <div id="ffff" className="nrow ">
                 <SinglePerson
                     males={males}
                     females={females}

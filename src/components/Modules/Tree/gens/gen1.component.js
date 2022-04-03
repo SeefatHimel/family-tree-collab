@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import getChildrenNo from "../service/getChildrenNo.service";
 import GetTotalSuccessors from "../service/getTotalSuccessors";
 import NextGen from "./nextGen.component";
+import '../../../../css/demo.css';
 
 const Gen1 = (props) => {
     const { adam_id, males, females } = props;
@@ -35,13 +36,12 @@ const Gen1 = (props) => {
             {males.map((male, index) => {
                 if (male.id == adam_id) {
                     return (
-                        <div id="gen 1 1" key={index} className="col">
+                        <div id="gen 1 1" key={index} className="genContainer">
                             <h1>Generation 1 ({num}) </h1>
                             <div
-                                className="row"
-                                style={{ margin: " auto 42%" }}
+                                className="nnrow"
                             >
-                                <div className="col mx-1">
+                                <div className="nncol">
                                     <img
                                         className=""
                                         style={{
@@ -60,11 +60,11 @@ const Gen1 = (props) => {
                                     if (female.id == male.spouse_id) {
                                         return (
                                             <div
-                                                className="col"
+                                                className="nncol"
                                                 key={index}
                                             >
                                                 <img
-                                                    className="row"
+                                                    className="nrow"
                                                     style={{
                                                         borderRadius: "45%",
                                                         height: "60px",
@@ -80,7 +80,7 @@ const Gen1 = (props) => {
                                     }
                                 })}
                             </div>
-                            <div id='gen1col' className="col"  
+                            <div id='gen1col' className=""  
                             //  style={{width: "30%"}}
                             > 
                             {PTotalSuccessorNo = GetTotalSuccessors(males, females, male.id, male.spouse_id)}

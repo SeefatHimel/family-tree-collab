@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/regForm" element={<RegForm />} />
         <Route path="/"
-          element={<div style={{ width: "100%", minWidth: "7000px", textAlign: 'center'}}>
+          element={<div style={{textAlign: 'center'}}>
             <Gen />
           </div>} />
       </Routes>

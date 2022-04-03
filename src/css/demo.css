@@ -1,0 +1,46 @@
+.genContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.nnrow {
+    column-gap: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
+    /* position: center; */
+}
+
+.propic {
+    border-radius: 45%;
+        height : 60px;
+        width: 60px;
+}
+
+.card {
+    flex-direction: row;
+}
+
+
+.ncol {
+    column-gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nrow {
+    column-gap: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#couple {
+    text-align: center;
+}
+
+.couple {
+    text-align: center;
+}

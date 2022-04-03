@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import getChildrenNo from "./service/getChildrenNo.service";
 import GetTotalSuccessors from "./service/getTotalSuccessors";
+import "../../../css/demo.css";
 
 const SinglePerson = (props) => {
     const {
@@ -8,7 +9,7 @@ const SinglePerson = (props) => {
         females,
         father_id,
         mother_id,
-        colClassName,
+        nClassName,
         genNo,
         GenComponent,
         mode,
@@ -30,11 +31,21 @@ const SinglePerson = (props) => {
 
     let mul = 100;
 
-    const setmul = () =>{
-        mul = Math.floor (defWidth * pChildren ? pChildren : 1 * totalSuccessorNo / PTotalSuccessorNo? PTotalSuccessorNo : 1);
-        console.log("m = ",mul ,pChildren ? pChildren : 1, PTotalSuccessorNo? PTotalSuccessorNo : 1);
-    }
-
+    const setmul = () => {
+        mul = Math.floor(
+            defWidth * pChildren
+                ? pChildren
+                : (1 * totalSuccessorNo) / PTotalSuccessorNo
+                ? PTotalSuccessorNo
+                : 1
+        );
+        console.log(
+            "m = ",
+            mul,
+            pChildren ? pChildren : 1,
+            PTotalSuccessorNo ? PTotalSuccessorNo : 1
+        );
+    };
 
     const childrenFunc = (person) => {
         const childrenNo = getChildrenNo(
@@ -43,7 +54,7 @@ const SinglePerson = (props) => {
             mode == 1 ? person.id : person.spouse_id,
             mode == 1 ? person.spouse_id : person.id
         );
-        
+
         return childrenNo;
     };
 
@@ -63,52 +74,50 @@ const SinglePerson = (props) => {
                 ) {
                     return (
                         <div
-                        id="sp 1 1"
-                            className="col "
+                            id="sp 1 1"
+                            className="ncol "
                             key={index}
-                            style={{ width: `${mul}%` }}
-                            // style={{ margin: "0px" }}
                         >
-                            <div
-                                id="rrrroooww23"
-                                className="card"
-                                style={{ float: "none" }}
-                            >
-                                <div
-                                    id="rrrroooww22"
-                                >
+                            <div id="rrrroooww23" className="card">
+                                <div id="rrrroooww22" className="ncol">
+                                        Generation {genNo}
+                                         {/* - (
                                     <p>
-                                        Generation {genNo} - (
-                                        {children =childrenFunc(person1)} ) = (
-                                        { totalSuccessorNo = GetTotalSuccessors(
-                                            males,
-                                            females,
-                                            mode == 1
-                                                ? person1.id
-                                                : person1.spouse_id,
-                                            mode == 1
-                                                ? person1.spouse_id
-                                                : person1.id
-                                        )}
-                                        {setmul()}
-                                        )
-                                    </p>
-                                    <p>{pChildren} * {totalSuccessorNo} / {PTotalSuccessorNo} = { Math.floor (defWidth * pChildren * totalSuccessorNo / PTotalSuccessorNo)} </p>
-                                    <div
-                                        className="row"
-                                        style={{
-                                            margin: "auto",
-                                            textAlign: "center",
-                                        }}
-                                    >
-                                        <div className="col mx-1">
+                                        {(children = childrenFunc(person1))} ) = 
+                                        (
+                                        {
+                                            (totalSuccessorNo =
+                                                GetTotalSuccessors(
+                                                    males,
+                                                    females,
+                                                    mode == 1
+                                                        ? person1.id
+                                                        : person1.spouse_id,
+                                                    mode == 1
+                                                        ? person1.spouse_id
+                                                        : person1.id
+                                                ))
+                                        }
+                                        {setmul()})
+                                    </p> */}
+                                    {/* pChildren = sibling no
+                                        totalSuccessorNo = totalSuccessor including parents
+                                        PTotalSuccessorNo = totalSuccessor of grand parents exluding  them
+                                        */}
+                                    {/* <p>
+                                        {pChildren} * {totalSuccessorNo} /{" "}
+                                        {PTotalSuccessorNo} ={" "}
+                                        {Math.floor(
+                                            (defWidth *
+                                                pChildren *
+                                                totalSuccessorNo) /
+                                                PTotalSuccessorNo
+                                        )}{" "}
+                                    </p> */}
+                                    <div id="couple" className="nnrow">
+                                        <div id="person1" className=" ">
                                             <img
-                                                className=""
-                                                style={{
-                                                    borderRadius: "45%",
-                                                    height: "60px",
-                                                    width: "60px",
-                                                }}
+                                                className="propic"
                                                 src={imgSrc1}
                                                 alt=""
                                             />
@@ -121,12 +130,12 @@ const SinglePerson = (props) => {
                                                 person2.id == person1.spouse_id
                                             ) {
                                                 return (
-                                                    <div
-                                                        className="col mx-1"
+                                                    <div id="person1" 
+                                                        className=" "
                                                         key={index}
                                                     >
                                                         <img
-                                                            className="row"
+                                                            className="nrow"
                                                             style={{
                                                                 borderRadius:
                                                                     "45%",
@@ -162,7 +171,9 @@ const SinglePerson = (props) => {
                                             genNo={genNo}
                                             sss={sss}
                                             pChildren={children}
-                                            PTotalSuccessorNo={totalSuccessorNo-2}
+                                            PTotalSuccessorNo={
+                                                totalSuccessorNo - 2
+                                            }
                                         />
                                     ) : null}
                                 </div>
