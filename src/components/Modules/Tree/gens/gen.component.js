@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import getFemales from "../../service/getFemales.service";
-import getMales from "../../service/getMales.service";
+import getFemales from "../service/getFemales.service";
+import getMales from "../service/getMales.service";
 import Gen1 from "./gen1.component";
 
 const Gen = () => {
@@ -18,7 +18,7 @@ const Gen = () => {
 
     useEffect(() => {
         console.log("hello");
-        dataImport()
+        dataImport();
     }, []);
 
     return (

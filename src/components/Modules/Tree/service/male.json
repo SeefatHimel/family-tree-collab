@@ -1,0 +1,200 @@
+{
+    "males": [
+        {
+            "id": 1,
+            "spouse_id": 1,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Nawsher Ali"
+        },
+        {
+            "id": 3,
+            "spouse_id": 0,
+            "father_id": 2,
+            "mother_id": 2,
+            "name": "Seefat Himel"
+        },
+        {
+            "id": 4,
+            "spouse_id": 4,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Habibor Rahman"
+        },
+        {
+            "id": 5,
+            "spouse_id": 5,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Tara"
+        },
+        {
+            "id": 6,
+            "spouse_id": 9,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "Hamidur Rahman"
+        },
+        {
+            "id": 2,
+            "spouse_id": 2,
+            "father_id": 1,
+            "mother_id": 1,
+            "name": "AKM Anwar Hossain"
+        },
+        {
+            "id": 7,
+            "spouse_id": 17,
+            "father_id": 4,
+            "mother_id": 4,
+            "name": "Reza"
+        },
+        {
+            "id": 8,
+            "spouse_id": 0,
+            "father_id": 6,
+            "mother_id": 9,
+            "name": "Uzzal Hamid"
+        },
+        {
+            "id": 9,
+            "spouse_id": 7,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Boro fupa"
+        },
+        {
+            "id": 10,
+            "spouse_id": 6,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Mogbul Hossain"
+        },
+        {
+            "id": 11,
+            "spouse_id": 16,
+            "father_id": 10,
+            "mother_id": 6,
+            "name": "Milon Hossain"
+        },
+        {
+            "id": 12,
+            "spouse_id": 0,
+            "father_id": 10,
+            "mother_id": 6,
+            "name": "Galib Hossain"
+        },
+        {
+            "id": 13,
+            "spouse_id": 23,
+            "father_id": 9,
+            "mother_id": 7,
+            "name": "Monowar Moni"
+        },
+        {
+            "id": 14,
+            "spouse_id": 24,
+            "father_id": 9,
+            "mother_id": 7,
+            "name": "Sayed Anwar"
+        },
+        {
+            "id": 15,
+            "spouse_id": 11,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Jatak Sajib"
+        },
+        {
+            "id": 16,
+            "spouse_id": 12,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Ashiqur Rahman"
+        },
+        {
+            "id": 17,
+            "spouse_id": 10,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Redoy Ahmed"
+        },
+        {
+            "id": 18,
+            "spouse_id": 8,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Bithy Husband"
+        },
+        {
+            "id": 19,
+            "spouse_id": 0,
+            "father_id": 18,
+            "mother_id": 8,
+            "name": "Bithy BabyB"
+        },
+        {
+            "id": 20,
+            "spouse_id": 0,
+            "father_id": 11,
+            "mother_id": 16,
+            "name": "Mahdi"
+        },
+        {
+            "id": 21,
+            "spouse_id": 0,
+            "father_id": 13,
+            "mother_id": 23,
+            "name": "Moni boy1"
+        },
+        {
+            "id": 22,
+            "spouse_id": 0,
+            "father_id": 13,
+            "mother_id": 23,
+            "name": "Moni boy2"
+        },
+        {
+            "id": 23,
+            "spouse_id": 13,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Jahangir Dikens"
+        },
+        {
+            "id": 24,
+            "spouse_id": 0,
+            "father_id": 23,
+            "mother_id": 13,
+            "name": "Shahed Khan"
+        },
+        {
+            "id": 25,
+            "spouse_id": 15,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Akhteruzzan"
+        },
+        {
+            "id": 26,
+            "spouse_id": 14,
+            "father_id": 0,
+            "mother_id": 0,
+            "name": "Rozy Husband"
+        },
+        {
+            "id": 27,
+            "spouse_id": 0,
+            "father_id": 26,
+            "mother_id": 14,
+            "name": "Rozy Son"
+        },
+        {
+            "id": 27,
+            "spouse_id": 0,
+            "father_id": 25,
+            "mother_id": 15,
+            "name": "Adi"
+        }
+    ]
+}

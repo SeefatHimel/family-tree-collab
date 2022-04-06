@@ -1,10 +1,20 @@
-import Gen from "./components/gens/gen.component";
+import Gen from './components/Modules/Tree/gens/gen.component'
+import Navbar from "./components/navbar.component";
+import { Route, Router, Routes } from "react-router-dom"
+import RegForm from "./components/regForm.component";
 
 function App() {
   return (
     <>
-      <h1>App =====</h1>
-      <Gen />
+
+      <Navbar />
+      <Routes>
+        <Route path="/regForm" element={<RegForm />} />
+        <Route path="/"
+          element={<div className='appDiv'>
+            <Gen />
+          </div>} />
+      </Routes>
     </>
   );
 }
