@@ -37,18 +37,15 @@ const Gen1 = (props) => {
                 if (male.id == adam_id) {
                     return (
                         <div id="gen 1 1" key={index} className="genContainer">
-                            <h1>Generation 1 ({num}) </h1>
-                            <div
+                            <div id="h1Div">
+                                <h1 id="h1gen1">Generation 1 ({num}) </h1>
+                            </div>
+                            <div id="stk"
                                 className="nnrow"
                             >
-                                <div className="nncol">
+                                <div className="">
                                     <img
-                                        className=""
-                                        style={{
-                                            borderRadius: "45%",
-                                            height: "60px",
-                                            width: "60px",
-                                        }}
+                                        className="propic"                                        
                                         src="https://i.pinimg.com/474x/65/25/a0/6525a08f1df98a2e3a545fe2ace4be47.jpg"
                                         alt=""
                                     />
@@ -64,13 +61,7 @@ const Gen1 = (props) => {
                                                 key={index}
                                             >
                                                 <img
-                                                    className="nrow"
-                                                    style={{
-                                                        borderRadius: "45%",
-                                                        height: "60px",
-                                                        width: "60px",
-                                                        margin: "auto",
-                                                    }}
+                                                    className="propic"
                                                     src="https://www.kindpng.com/picc/m/24-248600_contact-profile-user-default-female-suit-comments-female.png"
                                                     alt=""
                                                 />
@@ -80,10 +71,10 @@ const Gen1 = (props) => {
                                     }
                                 })}
                             </div>
-                            <div id='gen1col' className=""  
-                            //  style={{width: "30%"}}
-                            > 
-                            {PTotalSuccessorNo = GetTotalSuccessors(males, females, male.id, male.spouse_id)}
+                            
+                            <div id='gen1col' className=""> 
+                            {/* {PTotalSuccessorNo = GetTotalSuccessors(males, females, male.id, male.spouse_id)} */}
+                            {/* Total Family Members */}
                                 <NextGen
                                     father_id={male.id}
                                     mother_id={male.spouse_id}

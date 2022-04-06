@@ -5,8 +5,7 @@ const initialState = {
 };
 
 export default function reducer(state = initialState, action) {
-    switch (action.type) {
-       
+    switch (action.type) {       
         case Types.GET_PROFILES_FULFILLED: {
             return {
                 ...state,

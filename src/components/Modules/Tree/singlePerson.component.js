@@ -80,39 +80,26 @@ const SinglePerson = (props) => {
                         >
                             <div id="rrrroooww23" className="card">
                                 <div id="rrrroooww22" className="ncol">
-                                        Generation {genNo}
+                                    <div className="hDiv">
+                                        <h6 id="h6gen"> Generation {genNo}</h6>
+                                    </div>
+                                       
                                          {/* - (
                                     <p>
-                                        {(children = childrenFunc(person1))} ) = 
-                                        (
-                                        {
-                                            (totalSuccessorNo =
-                                                GetTotalSuccessors(
-                                                    males,
-                                                    females,
-                                                    mode == 1
-                                                        ? person1.id
-                                                        : person1.spouse_id,
-                                                    mode == 1
-                                                        ? person1.spouse_id
-                                                        : person1.id
-                                                ))
-                                        }
+                                    {(children = childrenFunc(person1))} ) = 
+                                    ( { (totalSuccessorNo = GetTotalSuccessors( males, females,
+                                        mode == 1 ? person1.id : person1.spouse_id,
+                                        mode == 1 ? person1.spouse_id : person1.id )) }
                                         {setmul()})
                                     </p> */}
                                     {/* pChildren = sibling no
                                         totalSuccessorNo = totalSuccessor including parents
                                         PTotalSuccessorNo = totalSuccessor of grand parents exluding  them
-                                        */}
-                                    {/* <p>
-                                        {pChildren} * {totalSuccessorNo} /{" "}
+                                    */}
+                                    {/* <p> {pChildren} * {totalSuccessorNo} /{" "}
                                         {PTotalSuccessorNo} ={" "}
-                                        {Math.floor(
-                                            (defWidth *
-                                                pChildren *
-                                                totalSuccessorNo) /
-                                                PTotalSuccessorNo
-                                        )}{" "}
+                                        {Math.floor( (defWidth * pChildren * totalSuccessorNo) / PTotalSuccessorNo
+                                        )}
                                     </p> */}
                                     <div id="couple" className="nnrow">
                                         <div id="person1" className=" ">
